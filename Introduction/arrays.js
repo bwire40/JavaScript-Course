@@ -228,3 +228,33 @@ function EveryPass(value) {
   return value > 100;
 }
 console.log(numbers2); //prints false
+
+// some()-check if some array values pass a test
+// prints true or false
+numbers2 = numbers.some(EverySome);
+function EverySome(value) {
+  return value > 100;
+}
+console.log(numbers2); //prints false
+
+// indexOf()-serches an array for an element value and returns its position
+// prints -1 if the element doesnt exist
+// indexOf(item,start)-item is required. start is the search start position
+let a = carsArray.indexOf("volvo");
+console.log(a);
+
+// lastIndexOf()-returns the position of the last occurence of the specified elemeent
+// find()-returns the value of the first array element that passes a test function
+
+numbers2 = numbers.find(findElem);
+function findElem(value) {
+  return value > 10;
+}
+console.log(numbers2); //prints 20
+
+// findIdex()-returns the index of the first array element that passes a test function
+numbers2 = numbers.findIndex(findElemIndex);
+function findElemIndex(value) {
+  return value > 50;
+}
+console.log(numbers2); //prints index 1
