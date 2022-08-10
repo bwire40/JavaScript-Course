@@ -222,6 +222,7 @@ console.log(numbers2);
 // reduceRight()-similar to reduce() buyt works from right to left
 
 // every()-checks if all values pass a test
+// returns true or false
 numbers2 = numbers.every(EveryPass);
 function EveryPass(value) {
   return value > 100;
