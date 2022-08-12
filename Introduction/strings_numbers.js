@@ -61,7 +61,7 @@
 // console.log(changeall);
 
 /**Lower and upper case
- * touppercase()-converts to upper caase
+ * touppercase()-converts to upper case
  * tolowercase()-converts to lower case
  */
 // console.log(myDesc.toUpperCase());

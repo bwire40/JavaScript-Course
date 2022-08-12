@@ -58,18 +58,24 @@
     </section>
     <h1>Images section</h1>
     <section class="images">
-      <p>the image to change</p>
+      <p>Click on the image to change it</p>
       <img
         src="images/black desk.jpg"
         alt="black desk"
         width="100%"
         id="image"
+        onclick="changeImg()"
       />
     </section>
-    <h2>Animations sections</h2>
+    <!-- <h2>Animations sections</h2>
     <div class="container" id="container">
       <div class="animate" id="animate"></div>
-    </div>
-    <script src="html_DOM.js"></script>
+    </div> -->
+    <button class="button" onclick="displayDate()">Display date</button>
+    <!-- <button class="button" id="date-btn">Display Second date</button> -->
+    <p id="date-p">I should display todays ddate</p>
+
+    <button class="button" id="btn-event">Use Event listener</button>
+    <script src="html_dom2.js"></script>
   </body>
 </html>
