@@ -8,7 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 nav {
-  /* min-height: 10vh; */
+  min-height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,9 +40,13 @@ nav {
   display: flex;
   font-size: 2rem;
 }
+.cta-text h2 {
+  overflow: hidden;
+}
 .cta-text span {
   padding: 0rem 0.4rem;
   text-shadow: rgba(0, 0, 0 0.4) 0 0 20px;
+  display: block;
 }
 .cta-btn {
   margin: 1rem;
