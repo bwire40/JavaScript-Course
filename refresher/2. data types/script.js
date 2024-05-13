@@ -1,35 +1,3 @@
-// single line commenting
-
-/* mulitline 
-comments
-*/
-
-// const name = "emanuel bwire";
-// const age = 20;
-
-// variables-containers
-
-// var let and const
-
-// let firstName = "john";
-// let lastName = "bwire";
-// let age = 24;
-
-// let a, b, c;
-
-// a = 20;
-// b = 30;
-// c = 40;
-
-// console.log(c);
-
-// const arr = [1, 2, 3, 4];
-
-// arr.push(5);
-// console.log(firstName, lastName, age);
-// console.log(arr);
-// console.log("***************************************");
-
 //  data types
 
 /**
@@ -72,8 +40,31 @@ const func = () => {
 
 const output = func; //function object
 
-console.log(output, typeof output);
+// console.log(output, typeof output);
 
 // NB:
 // primitive types are stored on the stack memory
 // reference are stored in the heap memory
+
+// type conversion
+let amount = "hello";
+
+// change string to number
+amount = parseInt(amount);
+// amount = +amount;
+// amount = Number(amount);
+
+// change number to a string
+
+// amount = amount.toString();
+// amount = String(amount);
+
+// change a string to a decimal
+// amount = parseFloat(amount); //type is still number of course but does not affect the decimal fomart
+
+// convert number to boolean
+// amount = Boolean(amount);
+
+// tying to convert a string that is not a number gets you a NaN.
+
+// console.log(amount, typeof amount);
