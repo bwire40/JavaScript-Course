@@ -73,3 +73,7 @@ const func = () => {
 const output = func; //function object
 
 console.log(output, typeof output);
+
+// NB:
+// primitive types are stored on the stack memory
+// reference are stored in the heap memory
