@@ -20,4 +20,7 @@ x = Math.max(2, 34, 5, 7);
 x = Math.random();
 x = Math.floor(Math.random() * 10 + 1);
 
+x = Math.floor(Math.random() * 50 + 1); //random number between 1-50
+// x = Math.round(2.345);
+
 console.log(x);
